@@ -51,7 +51,7 @@ return [
             'database' => env('DB_DATABASE', 'bookapp'),
             'username' => env('DB_USERNAME', 'root'),
             'password' => env('DB_PASSWORD', 'Pasona1234*'),
-            'unix_socket' => env('DB_SOCKET', '/var/lib/mysql/mysql.sock'),
+            'unix_socket' => env('DB_SOCKET', '/tmp/mysql.sock'),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
